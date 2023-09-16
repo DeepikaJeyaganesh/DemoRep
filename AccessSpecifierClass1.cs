@@ -24,6 +24,7 @@ namespace AccessSpecifierDemo1
         {
             public void Demo()
             {
+            Console.WriteLine();
                 AccessSpecifierClass2 c = new AccessSpecifierClass2();
                 // cannot access private variable
                 //c.PrivateID = 123;
